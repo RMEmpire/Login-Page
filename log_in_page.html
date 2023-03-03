@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>login</title>
+
+    <style>
+        #box{
+            background-color: white;
+            border: 1.5px solid black;
+            width: 300px;
+            height: 500px;
+            padding: 20px;
+            border-radius: 5px;
+            margin: auto;
+            margin-top: 120px;
+        }
+        
+        .login{
+            font-size: 28px;
+            font-family: 'Gajraj One', cursive;
+            font-weight: bold;
+            margin:18px 0px 50px 13px;
+        }
+
+        .user{
+            text-align: center;
+            margin-top: 20px;
+            font-weight:bold;
+        }
+        input {
+            border: none;
+            border-style: none;
+            padding: 10px;
+            width: 250px;
+            border-bottom: 2px solid rgb(208, 51, 119);
+        }
+
+        .continue{
+            border: 1.5px solid black;
+            border-radius: 5px;
+            background: rgb(231, 96, 155);
+            cursor: pointer;
+            padding: 10px 100px 10px 100px;
+            margin: 40px 13px 10px 13px;
+            font-family: 'Gajraj One', cursive;
+            font-size: 14px;
+        }
+
+        .or{
+            text-align: center;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        .social{
+            border: 1.5px solid black;
+            border-radius: 5px;
+            background: linear-gradient(to right,rgb(16, 124, 143),rgb(49, 206, 220),rgb(98, 225, 234));
+            cursor: pointer;
+            width: 275px;
+            height: 50px;
+            margin: 10px 0px 10px 13px;
+            font-size: 15px;
+            font-family: 'Gajraj One', cursive;
+        }
+
+        .sign{
+            text-align:center;
+            
+        }
+
+        body{
+            background: linear-gradient(to right,rgb(152, 23, 79),rgb(208, 51, 119),rgb(237, 85, 159));
+        }
+    </style>
+
+</head>
+<body>
+    <div id="box">
+        <p class="login">Login</p>
+        <div class="user">
+            <input type="text" placeholder="Username">
+            <div>
+                <br>
+                <input type="password" placeholder="Password">
+    
+            </div>
+        </div>
+
+        <button class="continue">
+            CONTINUE
+        </button>
+
+        <p class="or">or Connect with Social Media</p>
+
+        <button class="social">
+            <p class="sign">
+            Sign in With Gmail
+            </p>
+        </button>
+        <button class="social">
+            <p class="sign">Sign in With Facebook</p> 
+        </button>
+
+    </div>
+</body>
+</html>
